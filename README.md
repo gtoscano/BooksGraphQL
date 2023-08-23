@@ -3,6 +3,20 @@
 BooksGraphQL is a simple example demonstrating how to use FastAPI with GraphQL. This project provides a GraphQL API for managing books in a straightforward manner, making it suitable for those who are new to integrating GraphQL with FastAPI.
 
 ## Setup
+### Dependencies
+
+This project uses the following main dependencies:
+
+- **FastAPI**: A modern, high-performance web framework for building APIs with Python based on standard Python type hints.
+- **Uvicorn**: An ASGI server implementation, used to serve FastAPI.
+- **Databases**: Provides asynchronous database support for various backends.
+- **Asyncpg**: An asynchronous PostgreSQL driver.
+- **Graphene**: A comprehensive GraphQL framework for Python.
+- **Graphene-SQLAlchemy**: Enables easy integration between Graphene and SQLAlchemy.
+- **GraphQL-Relay**: Provides a Relay implementation for GraphQL.
+- **GraphQL-Core**: Core GraphQL implementation for Python.
+- **Psycopg2**: A PostgreSQL adapter for Python, allowing for interaction with PostgreSQL databases.
+- **Ariadne**: A Python library for implementing GraphQL servers.
 
 ### Database Setup
 
@@ -45,7 +59,7 @@ Replace `username` with your desired username and `yourpassword` with your desir
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/BooksGraphQL.git
+git clone https://github.com/gtoscano/BooksGraphQL.git
 cd BooksGraphQL
 ```
 
