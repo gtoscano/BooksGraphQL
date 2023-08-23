@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+databases = "*"
+asyncpg = "*"
+graphene = "*"
+graphene-sqlalchemy = ">=2.0"
+graphql-relay = "*"
+graphql-core = "*"
+psycopg2 = "*"
+ariadne = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
